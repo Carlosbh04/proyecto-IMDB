@@ -39,6 +39,9 @@ var profesional = /** @class */ (function () {
         this.oscarsNumber = oscarsNumber;
         this.profession = profession;
     }
+    profesional.prototype.forEach = function (arg0) {
+        throw new Error("Method not implemented.");
+    };
     profesional.prototype.mostaratributos = function () {
         console.log("name:".concat(this.name, "\nage: ").concat(this.age, "\nweight: ").concat(this.weight, "\nheight: ").concat(this.height, "\nIs Retired: ").concat(this.isRetired, "\nnationality: ").concat(this.nationality, "\noscarsNumber: ").concat(this.oscarsNumber, "\nprofession: ").concat(this.profession, "\n"));
     };

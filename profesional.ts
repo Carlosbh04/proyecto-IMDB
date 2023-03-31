@@ -39,6 +39,9 @@
 
 
 export class profesional{
+    forEach(arg0: (Director: any) => void) {
+        throw new Error("Method not implemented.");
+    }
     name:string;
     age:number;
     weight: number;
@@ -68,4 +71,6 @@ export class profesional{
 
 // let actor = new profesional("Dwayne Johnson",50,118,1.96,false,"eeuu",4,"actor",);
 // actor.mostaratributos();
+
+
 
